@@ -1,0 +1,124 @@
+[class*=" icon-"],
+[class^=icon-] {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: middle;
+  background-image: url(../img/icons.png);
+  background-repeat: no-repeat;
+  position: relative;
+}
+[class*=' iconize-'],
+[class^=iconize-] {
+  position: relative;
+  display: inline-block;
+}
+[class*=' iconize-']:before,
+[class^=iconize-]:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  content: '';
+  background: url(../img/icons.png) -9999px -9999px no-repeat
+}
+.icon-lens {
+  width: 23px;
+  height: 23px;
+  @include setSprite(25, 25, 0, 78);
+}
+.icon-lens-white {
+  width: 25px;
+  height: 25px;
+  @include setSprite(25, 25, 0, 0);
+}
+.icon-lens-grey {
+  width: 19px;
+  height: 19px;
+  @include setSprite(25, 25, 0, 25);
+}
+.icon-smart {
+  width: 29px;
+  height: 29px;
+  @include setSprite(29, 29, 25, 0);
+}
+.icon-quality {
+  width: 44px;
+  height: 44px;
+  @include setSprite(44, 44, 25, 30);
+}
+.icon-car {
+  width: 60px;
+  height: 38px;
+  @include setSprite(60, 38, 25, 75);
+}
+.icon-certif {
+  width: 39px;
+  height: 49px;
+  @include setSprite(39, 49, 69, 26);
+}
+.icon-web {
+  width: 43px;
+  height: 47px;
+  @include setSprite(43, 47, 85, 77);
+}
+.icon-marker {
+  width: 21px;
+  height: 27px;
+  @include setSprite(21, 27, 0, 113);
+}
+.icon-phone {
+  width: 23px;
+  height: 23px;
+  @include setSprite(23, 23, 21, 113);
+}
+.icon-mail {
+  width: 24px;
+  height: 18px;
+  @include setSprite(24, 18, 55, 0);
+}
+.icon-clock {
+  width: 21px;
+  height: 21px;
+  @include setSprite(21, 21, 79, 0);
+}
+.icon-pdf {
+  width: 53px;
+  height: 54px;
+  @include setSprite(53, 54, 0, 146);
+}
+.icon-gs1 {
+  width: 64px;
+  height: 52px;
+  @include setSprite(64, 52, 128, 1);
+}
+.icon-gs2 {
+  width: 59px;
+  height: 61px;
+  @include setSprite(59, 61, 192, 0);
+}
+.icon-gs3 {
+  width: 61px;
+  height: 60px;
+  @include setSprite(61, 60, 251, 0);
+}
+.icon-gs4 {
+  width: 57px;
+  height: 57px;
+  @include setSprite(57, 57, 312, 0);
+}
+.icon-check {
+  width: 19px;
+  height: 18px;
+  @include setSprite(19, 18, 53, 124);
+}
+.icon-setting {
+  width: 22px;
+  height: 22px;
+  @include setSprite(22, 22, 72, 124);
+}
+.icon-warranty {
+  width: 36px;
+  height: 42px;
+  @include setSprite(36, 42, 128, 105);
+}
